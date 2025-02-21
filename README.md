@@ -13,6 +13,6 @@ In particolare:
 
 Le librerie usate per ora nell'analisi sono:
 - [`ipyleaflet`](https://ipyleaflet.readthedocs.io/en/latest/): Rappresentazione nei Jupyter Notebook delle mappe analizzate
-- [`pandas`] (https://pandas.pydata.org/): Lettura dei file csv presi dal sito del comune
-- [`matplotlib`] (https://matplotlib.org/): Creazione dei grafici
+- [`pandas`](https://pandas.pydata.org/): Lettura dei file csv presi dal sito del comune
+- [`matplotlib`](https://matplotlib.org/): Creazione dei grafici
  
