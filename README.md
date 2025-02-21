@@ -8,7 +8,7 @@ necessario analizzare sto svolgendo delle analisi preliminari su alcune vie
 usando strumenti che potranno essermi di aiuto in questo progeto.
 
 In particolare:
-- Jupyter Notebook: Analisi dei dati presi dal sito [OpenData] (https://opendata.comune.bologna.it/pages/home/) del comune di Bologna 
+- Jupyter Notebook: Analisi dei dati presi dal sito [OpenData](https://opendata.comune.bologna.it/pages/home/) del comune di Bologna 
 
 
 Le librerie usate per ora nell'analisi sono:
