@@ -16,3 +16,10 @@ Le librerie usate per ora nell'analisi sono:
 - [`pandas`](https://pandas.pydata.org/): Lettura dei file csv presi dal sito del comune
 - [`matplotlib`](https://matplotlib.org/): Creazione dei grafici
  
+Per usare in ambiente locale i file lanciare il Dockerfile.
+Una volta lanciato il docker file cliccare sull'indirizzo che inizia per:
+http:://127.0...
+
+Si verrà portati alla pagina di JupyterLab, da lì sarà possibile lavorare sui progetti.
+
+
