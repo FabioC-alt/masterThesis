@@ -1,11 +1,11 @@
 # Analisi Traffico Bologna
 
 Per il lavoro di tesi che mi sono posto come obiettivo cercerò di monitorare il 
-traffico lungo alcune vie di Bologna usando il crowdsensig.
+traffico lungo alcune vie di Bologna usando il crowdsensing.
 
 Per avere un'idea indicativa dei passaggi e della quantità di dati che sarà
 necessario analizzare sto svolgendo delle analisi preliminari su alcune vie
-usando strumenti che potranno essermi di aiuto in questo progeto.
+usando strumenti che potranno essermi di aiuto in questo progetto.
 
 In particolare:
 - Jupyter Notebook: Analisi dei dati presi dal sito [OpenData](https://opendata.comune.bologna.it/pages/home/) del comune di Bologna 
