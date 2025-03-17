@@ -1,0 +1,11 @@
+apiVersion: controller.kubeslice.io/v1alpha1
+kind: Project
+metadata:
+  name: bellaspa
+  namespace: kubeslice-controller
+spec:
+  serviceAccount:
+    readOnly:
+      - fabioc
+    readWrite:
+      - fabioc 

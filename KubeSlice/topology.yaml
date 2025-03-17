@@ -1,0 +1,32 @@
+configuration:
+  cluster_configuration:
+    kube_config_path: /home
+    controller:
+      name: kind-kubeslice-controller
+      context_name: kind-kubeslice-controller 
+      kube_config_path: /home/fabioc/.kube/kubeslice-controller
+    workers:
+      - name: kind-kubeslice-worker
+        context_name: kind-kubeslice-worker  
+        kube_config_path: /home/fabioc/.kube/kubeslice-worker 
+                        #{This takes precedence over configuration.cluster_configuration.kube_config_path}
+      - name: kind-kubeslice-worker2
+        context_name: kind-kubeslice-worker2 
+        kube_config_path: /home/fabioc/.kube/kubeslice-worker2 
+                        #{This takes precedence over configuration.cluster_configuration.kube_config_path}
+  kubeslice_configuration:
+    project_name: kubeslice-avesha
+  helm_chart_configuration:
+    repo_alias: kubeslice
+    repo_url: https://kubeslice.github.io/kubeslice/
+    cert_manager_chart:
+      chart_name: cert-manager
+      version: ''
+    controller_chart:
+      chart_name: kubeslice-controller
+      version: ''
+    worker_chart:
+      chart_name: kubeslice-worker
+      version: ''
+      values:
+        metrics.insecure: true
