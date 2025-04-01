@@ -32,10 +32,3 @@ The kubernetes shim is separate pod that runs two `webhooks`:
 The Admission Controller can be scheduled via the YuniKorn **Helm Chart**, and loads the kubernetes secrets containing the CA certificates. It generates and rotate TLS certificates. Also runs the HTTPS server for webhook interactions.
 
 
-
-
-
-
-
-TEST
-
