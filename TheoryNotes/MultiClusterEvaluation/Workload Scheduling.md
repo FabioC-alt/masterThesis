@@ -9,3 +9,6 @@ In Liqo there are two different mechanism to schedule the workload:
 - Second: Is possible to restrict the elegible targets for each workload based on the requirements
 # [[Open Cluster Management]]
 In OCM is possible to decide where a certain workload should fit using the Placement resource, and it is used to dynamically select a set of managed clusters in on or multiple managed cluster set thus making possible a multi-cluster scheduling.
+
+# [[KubeStellar]]
+KubeStellar manages the workload scheduling using the [[Workload Definition Spaces]], which is a space where the Kubernetes workload is an application that runs on Kubernetes. A workload can be made by a single Kubernetes object or several objects that works together.
