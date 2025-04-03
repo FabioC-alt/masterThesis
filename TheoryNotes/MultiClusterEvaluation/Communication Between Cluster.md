@@ -1,5 +1,4 @@
 # [[Karmada]]
-
 ![[image(1).png]]
 In karmada the communication between clusters is possible thanks to MultiCluster Service. To support cross cluster communication is possible to use open source projects like Submariner.
 
@@ -26,3 +25,4 @@ Networking in OCM is managed through Cluster Proxy, which is an OCM addon to pro
 The working principle is based upon the `apiserver-network-proxy` which is a proxy running on both hub cluster and managed clusters.
 
 Network proxy will be established reverse proxy tunnels from a managed cluster to the hub cluster to make clients from the hub network can access the services in the managed cluster’s newtwork.
+

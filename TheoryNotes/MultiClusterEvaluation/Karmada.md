@@ -1,0 +1,1 @@
+Karmada is a Kubernetes management system that makes possible to run a cloud-native application managing multiple clusters which runs Kubernetes, so by speaking Kubernetes-native API and providing advanced solutions for scheduling capabilities. 
