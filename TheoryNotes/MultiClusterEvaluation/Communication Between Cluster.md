@@ -13,7 +13,7 @@ Then when the users access through the service the undelying network will route 
 Karmada exploits a service approach.
 
 # [[Liqo]]
-![[image(2).png]]While the communications in the local cluster are possible thanks to the normal epslices, to enable cluster-to-cluster communication is necessary to have the epslice on the local cluster and the then the pod can run on the remote cluster.
+![[image(2) 1.png]]While the communications in the local cluster are possible thanks to the normal epslices, to enable cluster-to-cluster communication is necessary to have the epslice on the local cluster and the then the pod can run on the remote cluster.
 
 The pod that is running on the remote cluster is capable of communicating with the pods present on the local cluster thanks to shadow copies of services and epslices.
 
