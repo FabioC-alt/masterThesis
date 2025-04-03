@@ -24,7 +24,7 @@ The agent will create a `ManagedCluster` bootstrap into the hub cluster and a Ce
 
 CSR is approved along with the ManagedCluster resource.
 
-![[image.png]]
+![[image 1.png]]
 
 In OCM is possible to manage multiple cluster using the `ManagedClusterSet` which is a cluster-scoped API in the hub cluster for grouping a few managed clusters into a “set”.
 
@@ -35,3 +35,8 @@ For easy access is possible to have two policies to manage a clusterset:
 **default:** Any cluster not specifying a ManagedClusterSet will be added into the default
 
 **global:** Here a ManagedClusterSet will include allt the ManagedCluster.
+
+[[Cluster Registering]] 
+Here the cluster registering is based on the "double opt-in handshaking" 
+![[Pasted image 20250403124604.png]]
+

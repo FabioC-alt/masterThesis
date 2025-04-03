@@ -1,0 +1,1 @@
+It is useful tool for [[Platform Management]].
