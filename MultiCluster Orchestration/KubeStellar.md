@@ -1,0 +1,1 @@
+KubeStellar manages the workload scheduling using the [[Workload Definition Spaces]], which is a space where the Kubernetes workload is an application that runs on Kubernetes. A workload can be made by a single Kubernetes object or several objects that works together.
