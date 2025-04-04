@@ -10,7 +10,8 @@ Applications can be queued in working-queues. Using the `OrderingPolicy` is poss
 
 # Architecture
 
-![[Pasted image 20250404131147.png]]### Core Scheduler
+![[Pasted image 20250404131147.png]]
+### YuniKorn Core Scheduler
 The core scheduler encapsulates all scheduling algorithms, it collects resources from underneath resource management platforms. Responsible of container allocation requests.
 The job is to make the decision about where is the best spot for each request and then sends response allocation to all the resource management platform.
 ### Scheduler Interface
