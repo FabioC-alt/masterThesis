@@ -64,5 +64,7 @@ Klutch: Open Source Cloud Agnostic tool for managing databases and data service 
 https://klutch.io/?gad_source=1&gclid=Cj0KCQjw782_BhDjARIsABTv_JCiRlGPJZTGtdN1NroPqBLd7tl-LyZoVub_z2YplRGtr7oKvaD10gEaAo2kEALw_wcB
 
 Plural:
-
 Future solutions will need to address these governance challenges directly, providing tools and frameworks for policy enforcement, access control, and compliance across all clusters.
+
+FlatCar: Disto Linux per container
+https://www.youtube.com/watch?v=mOtd2gxW_Z8&ab_channel=morrolinux
