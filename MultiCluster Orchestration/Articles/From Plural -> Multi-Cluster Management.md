@@ -44,3 +44,16 @@ In the architecture where we have one control plane that acts as conductor is po
 In this case context switching is not necessary and we have a reduced risk error.
 
 ## Opensource (well-known tools)
+#### Karmada
+#### Rancher Fleet
+#### OCM
+
+### Configurations Management Tools
+Thanks to tolls like, FluxCD, ArgoCD and Projectsveltos is possible to use the same standards and simplyfies operations 
+
+## Observability 
+Vuoto -> non ci sono tools, Opentelemetry non sembra supportare il multicluster
+-> Forse Observability con Istio
+# Best Practice for a MultiCluster Kubernetes
+The git approach -> using the git hub repo allows also to use the FluxCD and other continuous deployment tools.
+

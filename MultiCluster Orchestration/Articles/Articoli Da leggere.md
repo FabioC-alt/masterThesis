@@ -32,6 +32,12 @@ From Kubernetes to Knactor:
 A Data-Centric Rethink of Service Composition
 file:///home/fabioc/Downloads/2309.01805v2.pdf
 
+Karmada and OCM: New Approaches to Multicluster Fleet Management:
+https://www.cncf.io/blog/2022/09/26/karmada-and-open-cluster-management-two-new-approaches-to-the-multicluster-fleet-management-challenge/
+
+Plural: Practical Guide to Multi-Cluster
+https://www.plural.sh/blog/multi-cloud-kubernetes-management/
+
 # Tools 
 CloudFlare: Global Loadbalancing
 https://www.cloudflare.com/
@@ -41,3 +47,22 @@ Velero: Kubernetes-native backup and recovery tool:
 https://velero.io/
 Rancher Fleet: Centralized Multi-Cluster Management
 https://fleet.rancher.io/
+
+FluxCD: GitOps tools, that enables declarative management in Kubernetes resources
+https://fluxcd.io/
+
+ArgoCD: Similar to Flux, but with a visual board
+https://argo-cd.readthedocs.io/en/stable/
+
+Projectsveltos: Multicluster management solution focused on simplifying application deployment and management across various clusters. Unified interface
+https://sveltos.projectsveltos.io/
+
+KubeFed: Archiviata, ma vediamo cosa è
+https://github.com/kubernetes-retired/kubefed
+
+Klutch: Open Source Cloud Agnostic tool for managing databases and data service with Kubernetes-native, self-service provisioning
+https://klutch.io/?gad_source=1&gclid=Cj0KCQjw782_BhDjARIsABTv_JCiRlGPJZTGtdN1NroPqBLd7tl-LyZoVub_z2YplRGtr7oKvaD10gEaAo2kEALw_wcB
+
+Plural:
+
+Future solutions will need to address these governance challenges directly, providing tools and frameworks for policy enforcement, access control, and compliance across all clusters.
