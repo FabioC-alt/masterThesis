@@ -4,17 +4,15 @@
  
 [[Karmada]] a suo modo usa una struttura master-slave perchè abbiamo un control plane che controlla i cluster, cluster che sono registrati tramite il Karmada Controller.
 
-[[Open Cluster Management]] è una soluzione basata su un sistema Hub-agent. Difatti qui abbiamo una struttura master-slave perchè c'è un control plane hostato su un cluster detto **Hub** che controlla una serie di cluster per mezzo di un agent. 
+[[Open Cluster Management]] è una soluzione basata su un sistema Hub-agent. Difatti qui abbiamo una struttura master-slave perchè c'è un control plane hostato su un cluster detto **Hub** che controlla una serie di cluster per mezzo di un **agent**. 
 
 [[KubeStellar]] è una soluzione interessante, nonostante non sia strettamente master-slave, ne ricorda il funzionamento, perchè ci sono una serie di cluster connessi tramite OCM, che sono gestiti tramite un sistema Hub-spoke. Quindi diciamo che un control plane che fa questo lavoro ci deve essere. 
-Ma nonostante ciò, usa il concetto di spaces. Gli spaces sono entità più astratte.
+Ma nonostante ciò, usa il concetto di spaces. Gli spaces sono entità più astratte e volendo anche più dislocate, bisogna indagare come è usata la gestione degli spaces.
 
 [[Apache Yunikorn]] è principalmente usata per schedulare risorse sui vari clusters. Comunque l'architettura non è chiaro se sia master-slave ma il principio sembra quello. Perchè il control plane sembra contenere principalmente il **Core** e lo **Scheduler**, mentre l'equivalente dell'agent sembra essere quello che viene chiamato li **Shim**.
 
 ## Vantaggi e Svantaggi
 
-https://www.plural.sh/blog/kubernetes-multi-cluster-guide/?utm_source=chatgpt.com
-https://medium.com/%40cpsupriya31/understanding-master-slave-architecture-uses-and-challenges-2acc907de7c4
 ![[Pasted image 20250404161517.png]]
 The master-slave architecture is a design pattern in which one or more subordinate units known as slaves are controlled and coordinated by a central entity known as the master.
 
@@ -27,3 +25,4 @@ Given that the master manages all tasks and gathers slave results, it may be pro
 Keeping synch and communications between the master and slaves can add complexity and overhead. Coordination methods are necessary along with data exchange protocols and network latency which can have influence on overall system performance.
 #### Scalability Limitations
 The design master-slave enables scalability by adding additionals slaves but there migh be restrictions due to the system's foundamentals constraints.
+

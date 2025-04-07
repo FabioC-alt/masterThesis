@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "28b2eb833a16be84",
+        "id": "75c8d3d4214e9d13",
         "type": "tabs",
         "children": [
           {
-            "id": "04b222b4649b5560",
+            "id": "9af48c8907f67f14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Confronto alla Messicana.md",
+                "file": "Articles/Articoli Da leggere.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Confronto alla Messicana"
+              "title": "Articoli Da leggere"
+            }
+          },
+          {
+            "id": "10599ada561eeaa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Articles/From Plural -> Multi-Cluster Management.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "From Plural -> Multi-Cluster Management"
             }
           }
         ]
@@ -182,34 +196,37 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "04b222b4649b5560",
+  "active": "9af48c8907f67f14",
   "lastOpenFiles": [
-    "Pasted image 20250404172031.png",
-    "Liqo.md",
-    "Confronto alla Messicana.md",
-    "Images/Pasted image 20250404161517.png",
-    "Apache Yunikorn.md",
-    "Open Cluster Management.md",
-    "KubeStellar.md",
-    "Images/Pasted image 20250404155006.png",
-    "Karmada.md",
-    "Images/Pasted image 20250404131147.png",
+    "Articles/From Plural -> Multi-Cluster Management.md",
+    "Articles/Articoli Da leggere.md",
+    "MyNetwork",
+    "Articles",
+    "MyNetwork/Confronto alla Messicana.md",
+    "MyNetwork/Images/Pasted image 20250404172031.png",
+    "MyNetwork/Liqo.md",
+    "MyNetwork/Images/Pasted image 20250404161517.png",
+    "MyNetwork/Apache Yunikorn.md",
+    "MyNetwork/Open Cluster Management.md",
+    "MyNetwork/KubeStellar.md",
+    "MyNetwork/Images/Pasted image 20250404155006.png",
+    "MyNetwork/Karmada.md",
+    "MyNetwork/Images/Pasted image 20250404131147.png",
     "Workload Scheduling.md",
-    "MultiCluster Orchestration.md",
+    "MyNetwork/MultiCluster Orchestration.md",
     "Architecture of Multi-Cloud Kubernetes Environments.md",
     "ArchitectureofMulti-CloudKubernetesEnvironments.pdf",
-    "Images/Pasted image 20250404130422.png",
-    "Images/Pasted image 20250404130302.png",
-    "Images/Pasted image 20250404125652.png",
-    "Images/Pasted image 20250404125455.png",
-    "Images/Pasted image 20250404125408.png",
-    "Istio.md",
-    "Images/Pasted image 20250404125301.png",
-    "Images/Pasted image 20250404125246.png",
-    "Container Runtime.md",
+    "MyNetwork/Images/Pasted image 20250404130422.png",
+    "MyNetwork/Images/Pasted image 20250404130302.png",
+    "MyNetwork/Images/Pasted image 20250404125652.png",
+    "MyNetwork/Images/Pasted image 20250404125455.png",
+    "MyNetwork/Images/Pasted image 20250404125408.png",
+    "MyNetwork/Istio.md",
+    "MyNetwork/Images/Pasted image 20250404125301.png",
+    "MyNetwork/Container Runtime.md",
     "Virtual Node.md",
-    "Linkerd.md",
-    "Images",
+    "MyNetwork/Linkerd.md",
+    "MyNetwork/Images",
     "Cluster Federation.md"
   ]
 }
