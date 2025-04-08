@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "75c8d3d4214e9d13",
+        "id": "62ab7bd6134d8a38",
         "type": "tabs",
         "children": [
           {
-            "id": "80bebc65415827d2",
+            "id": "3d003420f02b2a10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyNetwork/Plural.md",
+                "file": "Articles/Articoli Da leggere.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plural"
+              "title": "Articoli Da leggere"
+            }
+          },
+          {
+            "id": "b380e167c376f220",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rancher Fleet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rancher Fleet"
+            }
+          },
+          {
+            "id": "4688e1973de600aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MyNetwork/FlatCar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FlatCar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "df11e91181844f7a",
@@ -143,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyNetwork/Plural.md",
+                "file": "Rancher Fleet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Plural"
+              "title": "Outline of Rancher Fleet"
             }
           },
           {
@@ -181,10 +209,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "217f92025d6f5dbe",
+  "active": "b380e167c376f220",
   "lastOpenFiles": [
+    "Pasted image 20250408112551.png",
     "Articles/Articoli Da leggere.md",
+    "Rancher Fleet.md",
+    "MyNetwork/FlatCar.md",
     "MyNetwork/Plural.md",
+    "MyNetwork/Images/Pasted image 20250408110133.png",
     "Articles/From Plural -> Multi-Cluster Management.md",
     "MyNetwork",
     "Articles",
@@ -208,7 +240,6 @@
     "MyNetwork/Images/Pasted image 20250404125455.png",
     "MyNetwork/Images/Pasted image 20250404125408.png",
     "MyNetwork/Istio.md",
-    "MyNetwork/Images/Pasted image 20250404125301.png",
     "MyNetwork/Container Runtime.md",
     "Virtual Node.md",
     "MyNetwork/Linkerd.md",
