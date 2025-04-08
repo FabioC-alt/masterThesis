@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyNetwork/FlatCar.md",
+                "file": "What is an Operator?.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FlatCar"
+              "title": "What is an Operator?"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "df11e91181844f7a",
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articles/Articoli Da leggere.md",
+                "file": "What is an Operator?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Articoli Da leggere"
+              "title": "Outline of What is an Operator?"
             }
           },
           {
@@ -195,18 +195,19 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d9bc2fd9b3a6a093",
+  "active": "4688e1973de600aa",
   "lastOpenFiles": [
-    "What is an Operator?.md",
-    "Pasted image 20250408125420.png",
-    "Pasted image 20250408125054.png",
-    "Pasted image 20250408124224.png",
-    "Pasted image 20250408123437.png",
-    "Pasted image 20250408123402.png",
-    "MyNetwork/Rancher Fleet.md",
-    "Articles/Articoli Da leggere.md",
-    "Pasted image 20250408112551.png",
+    "Pasted image 20250408155235.png",
+    "MyNetwork/Images/Pasted image 20250408124224.png",
     "MyNetwork/FlatCar.md",
+    "Articles/Articoli Da leggere.md",
+    "What is an Operator?.md",
+    "MyNetwork/Images/Pasted image 20250408125420.png",
+    "MyNetwork/Images/Pasted image 20250408125054.png",
+    "MyNetwork/Images/Pasted image 20250408123437.png",
+    "MyNetwork/Images/Pasted image 20250408123402.png",
+    "MyNetwork/Rancher Fleet.md",
+    "MyNetwork/Images/Pasted image 20250408112551.png",
     "MyNetwork/Plural.md",
     "MyNetwork/Images/Pasted image 20250408110133.png",
     "Articles/From Plural -> Multi-Cluster Management.md",

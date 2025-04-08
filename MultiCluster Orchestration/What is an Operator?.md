@@ -31,27 +31,24 @@ The systems wheter they are internal or external triggers changes in an Operator
 State Reconciliation flow: 
 ![[Pasted image 20250408125420.png]]
 
+# Alternative Patterns
+
+## Custom Kind + Custom Controller
+The main `Operator` pattern can be represented as `Custom Kind + Custom Controller`.  This is the most popular pattern. In this pattern there are some Kind to a declarative model in the domain requirement. Also the pattern incorporate a custom controller that includes the logic to reconcile the state by reacting to the events.
+This pattern can be implemented with the use of the CRDs and AA(Api Aggregation) mechanism.
+## Custom Kind + Custom Controller + Custom Sub-resource
+This is a variation on the `Operator Pattern`. It also supports custom actions (beyond the CRUD) on the custom Kinds. This pattern is implemented only using the AA mechanism.
+
+## Custom Controller + Custom Sub-resource
+In this pattern there is no new Kind defined. The custom controller executes its reconciliation based on the events related to the Kinds already registered in the cluster. 
+The job of the custom sub-resource is used to retrieve information that is collected by the custom controller.
+This pattern can be implemented only using the AA mechanism.
+
+
+![[Pasted image 20250408155235.png]]
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://itnext.io/comparing-kubernetes-api-extension-mechanisms-of-custom-resource-definition-and-aggregated-api-64f4ca6d0966
 
 https://medium.com/tech-at-fidelity/kubernetes-operators-pioneering-modern-architectural-automation-and-management-5bf2fba11d35
