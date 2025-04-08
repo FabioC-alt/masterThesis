@@ -31,7 +31,7 @@ The systems wheter they are internal or external triggers changes in an Operator
 State Reconciliation flow: 
 ![[Pasted image 20250408125420.png]]
 
-# Alternative Patterns
+# Patterns
 
 ## Custom Kind + Custom Controller
 The main `Operator` pattern can be represented as `Custom Kind + Custom Controller`.  This is the most popular pattern. In this pattern there are some Kind to a declarative model in the domain requirement. Also the pattern incorporate a custom controller that includes the logic to reconcile the state by reacting to the events.
