@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d003420f02b2a10",
+            "id": "d9bc2fd9b3a6a093",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Articoli Da leggere"
-            }
-          },
-          {
-            "id": "b380e167c376f220",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rancher Fleet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rancher Fleet"
             }
           },
           {
@@ -49,8 +35,7 @@
               "title": "FlatCar"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "df11e91181844f7a",
@@ -171,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rancher Fleet.md",
+                "file": "Articles/Articoli Da leggere.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rancher Fleet"
+              "title": "Outline of Articoli Da leggere"
             }
           },
           {
@@ -209,11 +195,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b380e167c376f220",
+  "active": "d9bc2fd9b3a6a093",
   "lastOpenFiles": [
-    "Pasted image 20250408112551.png",
+    "What is an Operator?.md",
+    "Pasted image 20250408125420.png",
+    "Pasted image 20250408125054.png",
+    "Pasted image 20250408124224.png",
+    "Pasted image 20250408123437.png",
+    "Pasted image 20250408123402.png",
+    "MyNetwork/Rancher Fleet.md",
     "Articles/Articoli Da leggere.md",
-    "Rancher Fleet.md",
+    "Pasted image 20250408112551.png",
     "MyNetwork/FlatCar.md",
     "MyNetwork/Plural.md",
     "MyNetwork/Images/Pasted image 20250408110133.png",
@@ -229,16 +221,10 @@
     "MyNetwork/KubeStellar.md",
     "MyNetwork/Images/Pasted image 20250404155006.png",
     "MyNetwork/Karmada.md",
-    "MyNetwork/Images/Pasted image 20250404131147.png",
     "Workload Scheduling.md",
     "MyNetwork/MultiCluster Orchestration.md",
     "Architecture of Multi-Cloud Kubernetes Environments.md",
     "ArchitectureofMulti-CloudKubernetesEnvironments.pdf",
-    "MyNetwork/Images/Pasted image 20250404130422.png",
-    "MyNetwork/Images/Pasted image 20250404130302.png",
-    "MyNetwork/Images/Pasted image 20250404125652.png",
-    "MyNetwork/Images/Pasted image 20250404125455.png",
-    "MyNetwork/Images/Pasted image 20250404125408.png",
     "MyNetwork/Istio.md",
     "MyNetwork/Container Runtime.md",
     "Virtual Node.md",

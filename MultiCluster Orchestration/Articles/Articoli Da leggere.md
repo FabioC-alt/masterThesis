@@ -1,3 +1,21 @@
+# Operators
+
+Introduction to operators:
+https://www.redhat.com/en/blog/operators-over-easy-introduction-kubernetes-operators?utm_source=chatgpt.com
+Kubernetes Operatos Explained:
+https://blog.container-solutions.com/kubernetes-operators-explained?utm_source=chatgpt.com
+Kubernetes Operator vs Kubernetes Controller
+https://www.geeksforgeeks.org/kubernetes-controller-vs-kubernetes-operator/?utm_source=chatgpt.com
+
+Kubernetes Operators:
+https://medium.com/tech-at-fidelity/kubernetes-operators-pioneering-modern-architectural-automation-and-management-5bf2fba11d35
+
+Kubernetes Operators vs Alternatives:
+https://cloudark.medium.com/why-to-write-kubernetes-operators-9b1e32a24814
+
+Operator Bugs: https://dl.acm.org/doi/abs/10.1145/3650212.3680396
+
+****
 Plural: Multi-Cluster Intro
 https://www.plural.sh/blog/kubernetes-multi-cluster-guide/?utm_source=chatgpt.com
 Medium: Master-Slave architecture
@@ -65,3 +83,4 @@ https://klutch.io/?gad_source=1&gclid=Cj0KCQjw782_BhDjARIsABTv_JCiRlGPJZTGtdN1Nr
 
 FlatCar: Disto Linux per container
 https://www.youtube.com/watch?v=mOtd2gxW_Z8&ab_channel=morrolinux
+
