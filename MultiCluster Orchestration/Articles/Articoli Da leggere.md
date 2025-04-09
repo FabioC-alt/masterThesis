@@ -15,6 +15,16 @@ https://cloudark.medium.com/why-to-write-kubernetes-operators-9b1e32a24814
 
 Operator Bugs: https://dl.acm.org/doi/abs/10.1145/3650212.3680396
 
+How Operators works in combinations with CRDs:
+https://iximiuz.com/en/posts/kubernetes-operator-pattern/
+
+When not to write a Kubernetes Operator:
+https://rm-rf.ca/posts/2020/when-not-to-write-kubernetes-operator/
+
+## Multicluster Management with Operators
+Management with Operators in Kubernetes Multicluster:
+https://www.kubermatic.com/blog/how-to-manage-multi-cluster-kubernetes-with-operators/
+
 ****
 Plural: Multi-Cluster Intro
 https://www.plural.sh/blog/kubernetes-multi-cluster-guide/?utm_source=chatgpt.com
