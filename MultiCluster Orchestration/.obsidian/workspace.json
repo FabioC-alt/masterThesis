@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "df11e91181844f7a",
@@ -184,12 +183,14 @@
   },
   "active": "d9bc2fd9b3a6a093",
   "lastOpenFiles": [
+    "What is an Operator?.md",
+    "ArchitectureofMulti-CloudKubernetesEnvironments.pdf",
+    "Tools Classified.md",
+    "Articles/Articoli Da leggere.md",
     "MyNetwork/FlatCar.md",
     "MyNetwork/Linkerd.md",
-    "Articles/Articoli Da leggere.md",
-    "Rancher.md",
+    "MyNetwork/Rancher.md",
     "MyNetwork/Images/Pasted image 20250408155235.png",
-    "What is an Operator?.md",
     "MyNetwork/Images/Pasted image 20250408124224.png",
     "MyNetwork/Images/Pasted image 20250408125420.png",
     "MyNetwork/Images/Pasted image 20250408125054.png",
@@ -213,7 +214,6 @@
     "Workload Scheduling.md",
     "MyNetwork/MultiCluster Orchestration.md",
     "Architecture of Multi-Cloud Kubernetes Environments.md",
-    "ArchitectureofMulti-CloudKubernetesEnvironments.pdf",
     "MyNetwork/Istio.md",
     "MyNetwork/Container Runtime.md",
     "Virtual Node.md",
