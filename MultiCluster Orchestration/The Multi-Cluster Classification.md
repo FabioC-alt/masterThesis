@@ -40,10 +40,11 @@ In questo sistema non c'è veramente un limite tra un cluster e un'altro, quindi
 # Connections 
 ## Tunnel Based
 [[Submariner]]
-In questa architettura non c'è un vero controllo sui cluster, ma il goal è di connettere molteplici cluster in maniera sicura. Viene definito un cluster set, ovvero un gruppo di cluster con alto grado di affidabilità che possono connettersi fra loro sfruttando la Public Network.
+In questa architettura il goal è di connettere molteplici cluster in maniera sicura. Viene definito un cluster set, ovvero un gruppo di cluster con alto grado di affidabilità che possono connettersi fra loro sfruttando la Public Network.
 
 Pro:
 Molto semplice da gestire nell'aggiungere i cluster nel cluster set. 
+
 Contro:
 Poco controllo sulle risorse che vogliamo includere.
 
