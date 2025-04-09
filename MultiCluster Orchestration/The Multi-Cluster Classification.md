@@ -40,7 +40,7 @@ In questo sistema non c'è veramente un limite tra un cluster e un'altro, quindi
 # Connections 
 ## Tunnel Based
 [[Submariner]]
-In questa architettura non c'è un vero controllo sui cluster, ma il goal è di connettere molteplici cluster in maniera sicura. Viene definito un cluster set, ovvero un gruppo di cluster con alto grado di affidabilità.
+In questa architettura non c'è un vero controllo sui cluster, ma il goal è di connettere molteplici cluster in maniera sicura. Viene definito un cluster set, ovvero un gruppo di cluster con alto grado di affidabilità che possono connettersi fra loro sfruttando la Public Network.
 
 Pro:
 Molto semplice da gestire nell'aggiungere i cluster nel cluster set. 
@@ -49,5 +49,14 @@ Poco controllo sulle risorse che vogliamo includere.
 
 ## Service Mesh 
 [[Istio]] 
-Nell service mesh
+Nell service mesh abbiamo un overlay network che incapsula i dati e li rende protetti. 
+
+Pro:
+Le service mesh di default possono essere usate per implementare la sicurezza e il monitoraggio.
+
+Contro: 
+Aumenta la complessità di gestione e di set-up.
+
+Bonus: 
+Le service mesh volendo potrebbero essere usate con un controller per avere una strategia di gestione di risorse in multi-cluster.
 
