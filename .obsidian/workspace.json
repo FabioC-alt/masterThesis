@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9eb5dd22077c97da",
+        "id": "7694a11b87dda35b",
         "type": "tabs",
         "children": [
           {
-            "id": "6f5198f365eee1d9",
+            "id": "a6ff9e8ead0880bf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MultiCluster Orchestration/Observarbility.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Observarbility"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b6a5db65bd4fbedf",
@@ -153,17 +158,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6aa1de92dd7901cd",
+  "active": "a6ff9e8ead0880bf",
   "lastOpenFiles": [
+    "Pasted image 20250414174137.png",
+    "MultiCluster Orchestration/Observarbility.md",
+    "Untitled",
+    "MultiCluster Orchestration/ArchitectureofMulti-CloudKubernetesEnvironments.pdf",
     "TheoryNotes/MultiClusterEvaluation/Platform Management.md",
     "TheoryNotes/MultiClusterEvaluation/Networking.md",
     "TheoryNotes/MultiClusterEvaluation/MultiCluster Management.md",
