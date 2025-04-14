@@ -38,3 +38,14 @@ Due to the sensibility of the data involved in the Smart City the information ga
 In order for the data to be useful the monitoring should be performed 24/24 7/7 and 365/365.
 #### Reduction of the Smart City environmental footprint
 The Smart Cities must be sustainable in order to contribute toward a more sustainable use of the city's resource.
+
+## Smart Cities Platform Stake Holder
+The main stakeholder in the operations for the SC Platforms are:
+- Infrastructure Operations: Mainly the support operations
+- IoT Sensors Operations: Data retreiving
+- Business Operations: Defining the KPI for the services offered and archived
+
+## Observability of Smart City platforms
+The complexity of a SC Platform in terms of technology, requirements, and stakeholders involved make observ-
+ability an important aspect that needs to be taken into account in the software architecture design parameters
+of the system.
