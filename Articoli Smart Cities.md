@@ -6,3 +6,16 @@ David Calavera and Lorenzo Fontana. 2019. Linux Observability with BPF. O’Reil
 
 Brendan Creane and Amit Gupta. 2021. Kubernetes Security and Observability: A Holistic Approach to Securing Containers and Cloud
 Native Applications. O’Reilly Media, Inc., Sebastopol, CA
+
+
+Data-Driven Metrics Applied to Traffic Crashes to
+Improve Observability in Smart Cities
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9922067
+
+
+The Sensable City: A Survey on the Deployment and Management for Smart City Monitoring
+https://ieeexplore.ieee.org/abstract/document/8533352?casa_token=FLzHnaH6EjAAAAAA:CfleNImmO-hI_qOE_fAIR0b2YxefgRLYEU-vebaQZJC4zY92IZfdZ--GkYH0Cy0LNLE5czynPw
+
+
+Multi-Tenancy in Smart City Platforms
+https://dl.acm.org/doi/pdf/10.1145/3487553.3524853

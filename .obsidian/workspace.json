@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7694a11b87dda35b",
+        "id": "e6000e1da8ed80ed",
         "type": "tabs",
         "children": [
           {
-            "id": "a6ff9e8ead0880bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MultiCluster Orchestration/Observarbility.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Observarbility"
-            }
-          },
-          {
-            "id": "9bac6e4eeb17279e",
+            "id": "468d48375ef17e52",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Articoli Smart Cities"
             }
+          },
+          {
+            "id": "cbfd1d360fd741b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BPF for Observability.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BPF for Observability"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b6a5db65bd4fbedf",
@@ -154,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MultiCluster Orchestration/Observarbility.md",
+                "file": "BPF for Observability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Observarbility"
+              "title": "Outline of BPF for Observability"
             }
           }
         ],
@@ -168,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,13 +185,25 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a6ff9e8ead0880bf",
+  "active": "cbfd1d360fd741b3",
   "lastOpenFiles": [
+    "BPFTests/bpfTest1.o",
+    "BPFTests/bpfTest1-bf9b77dc.o.tmp",
+    "BPFTests/bpfTest1-082ed514.o.tmp",
+    "BPFTests/bpfTest1-8d661e36.o.tmp",
+    "BPFTests/bpfTest1-b43345c9.o.tmp",
+    "BPFTests/bpfTest1-61d8a9d7.o.tmp",
+    "BPFTests/bpfTest1-93775217.o.tmp",
+    "BPFTests/wl-copy",
+    "BPFTests/bpfTest1-24f07bca.o.tmp",
+    "BPFTests/bpfTest1.c",
+    "Pasted image 20250415114708.png",
     "Articoli Smart Cities.md",
+    "BPF for Observability.md",
+    "MultiCluster Orchestration/Articles/Articoli Da leggere.md",
     "MultiCluster Orchestration/Observarbility.md",
     "Articoli Smart Cities",
     "Pasted image 20250414174137.png",
-    "MultiCluster Orchestration/ArchitectureofMulti-CloudKubernetesEnvironments.pdf",
     "TheoryNotes/MultiClusterEvaluation/Platform Management.md",
     "TheoryNotes/MultiClusterEvaluation/Networking.md",
     "TheoryNotes/MultiClusterEvaluation/MultiCluster Management.md",
