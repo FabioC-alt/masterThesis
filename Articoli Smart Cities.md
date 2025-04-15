@@ -19,3 +19,6 @@ https://ieeexplore.ieee.org/abstract/document/8533352?casa_token=FLzHnaH6EjAAAAA
 
 Multi-Tenancy in Smart City Platforms
 https://dl.acm.org/doi/pdf/10.1145/3487553.3524853
+
+Understanding the Smart City Domain: A literature review
+https://www.researchgate.net/profile/Leonidas-Anthopoulos/publication/280739684_Understanding_the_Smart_City_Domain_A_Literature_Review/links/55c4cbad08aea2d9bdc390cb/Understanding-the-Smart-City-Domain-A-Literature-Review.pdf
