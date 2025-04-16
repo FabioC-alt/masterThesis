@@ -41,6 +41,7 @@ Challenges Introduced by the Service Mesh Pattern:
 
 
 
+
 eBPF: A New Approach to Cloud-Native Observability, Networking and Security for Current (5G) and Future Mobile Networks (6G and Beyond):
 https://ieeexplore.ieee.org/abstract/document/10138542
 
@@ -54,5 +55,7 @@ https://www.youtube.com/watch?v=VBOONHW65NU&ab_channel=eBPF%26CiliumCommunity
 
 Le ClusterMesh sono effettivamente delle mesh e permettono la comunicazione cross-cluster fra servizi.
 
+# ViperProbe
+eBPF based metrics gathering tool. -> no public release
 # Observability with Hubble
 
