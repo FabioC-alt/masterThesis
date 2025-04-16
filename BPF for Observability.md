@@ -28,8 +28,17 @@ Thanks to the attribute `SEC(NAME)`, the program will be run only when the trace
 eBPF observability in Cilium:
 https://www.youtube.com/watch?source_ve_path=Mjg2NjQsMTY0NTAz&v=8WCbGSCyDSo&feature=youtu.be
 
-ViperProbe -> Observability in Microservices with eBPF:
+# ViperProbe: Observability in Microservices with eBPF
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9335808
+
+Challenges Introduced by the Service Mesh Pattern:
+- Increased Diversity of the services increases the variety of instrumentation and resulting metrics
+- The extreme hyperscaling of microservices explodes the volume of metrics, traces and logs
+- Complex request paths and routing makes localizing and qualifying "normal" performance exponentially more challenging
+
+![[Pasted image 20250416175925.png]]
+
+
 
 
 eBPF: A New Approach to Cloud-Native Observability, Networking and Security for Current (5G) and Future Mobile Networks (6G and Beyond):
@@ -44,3 +53,6 @@ Cluster Mesh CIlium:
 https://www.youtube.com/watch?v=VBOONHW65NU&ab_channel=eBPF%26CiliumCommunity
 
 Le ClusterMesh sono effettivamente delle mesh e permettono la comunicazione cross-cluster fra servizi.
+
+# Observability with Hubble
+
