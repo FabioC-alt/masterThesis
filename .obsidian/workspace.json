@@ -35,7 +35,8 @@
               "title": "BPF for Observability"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b6a5db65bd4fbedf",
@@ -184,8 +184,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "468d48375ef17e52",
+  "active": "cbfd1d360fd741b3",
   "lastOpenFiles": [
+    "Articoli Smart Cities.md",
     "BPF for Observability.md",
     "Pasted image 20250415122611.png",
     "Pasted image 20250415122600.png",
@@ -201,7 +202,6 @@
     "BPFTests/bpfTest1-24f07bca.o.tmp",
     "BPFTests/bpfTest1.c",
     "Pasted image 20250415114708.png",
-    "Articoli Smart Cities.md",
     "MultiCluster Orchestration/Articles/Articoli Da leggere.md",
     "MultiCluster Orchestration/Observarbility.md",
     "Pasted image 20250414174137.png",
