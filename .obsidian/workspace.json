@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposta tesi.md",
+                "file": "Articoli Smart Cities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proposta tesi"
+              "title": "Articoli Smart Cities"
             }
           }
         ],
@@ -201,11 +201,11 @@
   },
   "active": "1d86dacfd87898b0",
   "lastOpenFiles": [
+    "Smart Cities.md",
+    "Proposta tesi.md",
     "Pasted image 20250417185235.png",
     "Opentelemetry Observability.md",
-    "Proposta tesi.md",
     "BPF for Observability.md",
-    "Smart Cities.md",
     "Pasted image 20250416175925.png",
     "Articoli Smart Cities.md",
     "Pasted image 20250415122611.png",
