@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articoli Smart Cities.md",
+                "file": "MultiCluster Orchestration/The Multi-Cluster Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Articoli Smart Cities"
+              "title": "The Multi-Cluster Classification"
             }
           }
         ],
@@ -200,13 +200,13 @@
   },
   "active": "1d86dacfd87898b0",
   "lastOpenFiles": [
+    "Articoli Smart Cities.md",
     "Smart Cities.md",
     "Proposta tesi.md",
     "Pasted image 20250417185235.png",
     "Opentelemetry Observability.md",
     "BPF for Observability.md",
     "Pasted image 20250416175925.png",
-    "Articoli Smart Cities.md",
     "Pasted image 20250415122611.png",
     "Pasted image 20250415122600.png",
     "Pasted image 20250415121437.png",
