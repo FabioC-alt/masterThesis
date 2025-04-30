@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BPF for Observability.md",
+                "file": "Meta's hyperscale Infrastructure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BPF for Observability"
+              "title": "Outline of Meta's hyperscale Infrastructure"
             }
           },
           {
@@ -204,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -225,6 +225,7 @@
   },
   "active": "4aa695489b365b0d",
   "lastOpenFiles": [
+    "Pasted image 20250430121256.png",
     "Pasted image 20250430115242.png",
     "MultiCluster Orchestration/The Multi-Cluster Classification.md",
     "Meta's hyperscale Infrastructure.md",
