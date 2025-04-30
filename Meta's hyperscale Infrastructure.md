@@ -21,7 +21,8 @@ This WAN provides high bandwidth to serve this internal traffic.
 ![[Pasted image 20250430121256.png]]
 
 Gloabally there are around 10 regions datacenters. Each of these has multiple datacenters located within the radius of a few miles. 
-### Edge Network
+
+
 
 
 
