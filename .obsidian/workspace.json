@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MultiCluster Orchestration/Service Mesh.md",
+                "file": "MultiCluster Orchestration/Service Mesh Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Service Mesh"
+              "title": "Service Mesh Classification"
             }
           }
         ],
@@ -197,8 +197,10 @@
   },
   "active": "8fcdb4557e8275ab",
   "lastOpenFiles": [
+    "Pasted image 20250430171632.png",
+    "Pasted image 20250430170749.png",
     "MultiCluster Orchestration/Network Models Articles.md",
-    "MultiCluster Orchestration/Service Mesh.md",
+    "MultiCluster Orchestration/Service Mesh Classification.md",
     "MultiCluster Orchestration/Observability Articles.md",
     "MultiCluster Orchestration/Proposta tesi.md",
     "MultiCluster Orchestration/Security Articles.md",
@@ -240,7 +242,6 @@
     "TheoryNotes/MultiClusterEvaluation/KubeStellar.md",
     "TheoryNotes/MultiClusterEvaluation/Karmada.md",
     "TheoryNotes/MultiClusterEvaluation/Communication Between Cluster.md",
-    "TheoryNotes/MultiClusterEvaluation/Cluster.md",
-    "TheoryNotes/MultiClusterEvaluation/Apache YuniKorn.md"
+    "TheoryNotes/MultiClusterEvaluation/Cluster.md"
   ]
 }
