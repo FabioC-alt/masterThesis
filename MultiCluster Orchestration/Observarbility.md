@@ -49,3 +49,6 @@ The main stakeholder in the operations for the SC Platforms are:
 The complexity of a SC Platform in terms of technology, requirements, and stakeholders involved make observ-
 ability an important aspect that needs to be taken into account in the software architecture design parameters
 of the system.
+
+
+![[Pasted image 20250502111115.png]]

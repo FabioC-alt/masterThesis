@@ -27,16 +27,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MultiCluster Orchestration/Observability Articles.md",
+                "file": "MultiCluster Orchestration/Service Mesh Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Observability Articles"
+              "title": "Service Mesh Classification"
+            }
+          },
+          {
+            "id": "dc71ad10683f6b87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MultiCluster Orchestration/Articoli Smart Cities.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Articoli Smart Cities"
+            }
+          },
+          {
+            "id": "ae5392f09ca5bf95",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20250430171632.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250430171632"
+            }
+          },
+          {
+            "id": "80ca2b3004fe8a59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PhD Proposal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PhD Proposal"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -68,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "continuum",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,25 +235,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8fcdb4557e8275ab",
+  "active": "80ca2b3004fe8a59",
   "lastOpenFiles": [
+    "Images/Pasted image 20250430171632.png",
+    "PhD Proposal.md",
+    "MultiCluster Orchestration/Articoli Smart Cities.md",
+    "MultiCluster Orchestration/Articles/Articoli Da leggere.md",
+    "MultiCluster Orchestration/Observability Articles.md",
+    "MultiCluster Orchestration/Network Models Articles.md",
+    "Images/Pasted image 20250502111121.png",
     "MultiCluster Orchestration/Observarbility.md",
-    "MultiCluster Orchestration/Overhead Articles.md",
+    "Images/Pasted image 20250502111115.png",
     "MultiCluster Orchestration/Service Mesh Classification.md",
+    "MultiCluster Orchestration/Overhead Articles.md",
     "MultiCluster Orchestration/MyNetwork/peerToPeer.drawio",
     "MultiCluster Orchestration/MyNetwork/HubSpoke.drawio",
     "MultiCluster Orchestration/MasterSlave.png",
     "MultiCluster Orchestration/MasterSlave.drawio",
     "MultiCluster Orchestration/HubSpoke.drawio.png",
-    "Pasted image 20250430171632.png",
-    "Pasted image 20250430170749.png",
-    "MultiCluster Orchestration/Network Models Articles.md",
-    "MultiCluster Orchestration/Observability Articles.md",
+    "Images/Pasted image 20250430170749.png",
     "MultiCluster Orchestration/Proposta tesi.md",
     "MultiCluster Orchestration/Security Articles.md",
     "MultiCluster Orchestration/The Multi-Cluster Classification.md",
     "MultiCluster Orchestration/What is an Operator?.md",
-    "MultiCluster Orchestration/Articles/Articoli Da leggere.md",
     "Opentelemetry Observability.md",
     "MultiCluster Orchestration/MyNetwork/Karmada.md",
     "Images/Pasted image 20250430121256.png",
@@ -226,10 +270,7 @@
     "Images",
     "MultiCluster Orchestration/ArchitectureofMulti-CloudKubernetesEnvironments.pdf",
     "Images/Pasted image 20250430115242.png",
-    "MultiCluster Orchestration/Articoli Smart Cities.md",
     "TrafficAnalysis/SaragozzaAnalysis/Smart Cities.md",
-    "Images/Pasted image 20250417185235.png",
-    "Images/Pasted image 20250416175925.png",
     "BPFTests/bpfTest1.o",
     "BPFTests/bpfTest1-bf9b77dc.o.tmp",
     "BPFTests/bpfTest1-082ed514.o.tmp",
@@ -240,7 +281,6 @@
     "TheoryNotes/MultiClusterEvaluation/MultiCluster Management.md",
     "TheoryNotes/MultiClusterEvaluation/KubeStellar.md",
     "TheoryNotes/MultiClusterEvaluation/Karmada.md",
-    "TheoryNotes/MultiClusterEvaluation/Communication Between Cluster.md",
-    "TheoryNotes/MultiClusterEvaluation/Cluster.md"
+    "TheoryNotes/MultiClusterEvaluation/Communication Between Cluster.md"
   ]
 }
