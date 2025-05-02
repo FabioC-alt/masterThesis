@@ -24,3 +24,22 @@ https://dl.acm.org/doi/pdf/10.1145/2993422.2993427
 
 Using Knowledge of the Structure of a Building (Monitoring) to perform observability on it.
 
+# Enabled Network Monitoring and Measurement: Toward High-Yield Network Obserability for Digital Twin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
