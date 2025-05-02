@@ -9,7 +9,7 @@ Event Mesh
 
 ![[Pasted image 20250502152149.png]]
 
-
+Agenti esterni che interagiscono con il sistema per aumentare la resilenza e sostenibilità
 
 ## Data Driven Metrics Applied to Traffic Crashes to Improve Observability in Smart Cities
 
@@ -26,10 +26,23 @@ Using Knowledge of the Structure of a Building (Monitoring) to perform observabi
 
 # Enabled Network Monitoring and Measurement: Toward High-Yield Network Obserability for Digital Twin
 
+![[Pasted image 20250502170506.png]]
+
+### Active Measurement
+Actively sending data packets to test the networks, however this can create a sort of Heisenberg effect, where the act of observing the network can affect the accurancy of measurement result.
+
+### Passive Measurement
+Networking monitoring involves capturing informations about the system, using logs traces and network sniffing.
+
+The problem with Passive Measurement is that it cannot provide real-time data on network performance and may not capture as much detail as active monitoring.
+
+### Hybrid Measurement
+This kind of technique combines both active and passive measurement techniques to provide a more comprehensive view of network performace. 
+
+## In quest of a theory of Adaptive Change
 
 
-
-
+![[Pasted image 20250502175947.png]]a
 
 
 
