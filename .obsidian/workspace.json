@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9f40cb9e08e37560",
+        "id": "bfa64eee4a2213b0",
         "type": "tabs",
         "children": [
           {
-            "id": "80ca2b3004fe8a59",
+            "id": "74cb4224e554be48",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PhD Proposal.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "PhD Proposal"
+              "title": "New tab"
             }
           }
         ]
@@ -141,13 +137,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhD Proposal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PhD Proposal"
+              "title": "Outline"
             }
           },
           {
@@ -179,17 +174,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "80ca2b3004fe8a59",
+  "active": "74cb4224e554be48",
   "lastOpenFiles": [
-    "Pasted image 20250502175947.png",
-    "Pasted image 20250502170506.png",
+    "Images/Pasted image 20250502170506.png",
+    "Images/Pasted image 20250502152149.png",
+    "PhD Proposal.md",
+    "Images/Pasted image 20250502175947.png",
     "Images/Pasted image 20250430171632.png",
     "MultiCluster Orchestration/Articoli Smart Cities.md",
     "MultiCluster Orchestration/Service Mesh Classification.md",
     "MultiCluster Orchestration/Network Models Articles.md",
-    "PhD Proposal.md",
-    "Pasted image 20250502152149.png",
-    "Pasted image 20250502120503.png",
+    "Images/Pasted image 20250502120503.png",
     "MultiCluster Orchestration/Articles/Articoli Da leggere.md",
     "MultiCluster Orchestration/Observability Articles.md",
     "Images/Pasted image 20250502111121.png",
@@ -208,7 +203,6 @@
     "MultiCluster Orchestration/What is an Operator?.md",
     "Opentelemetry Observability.md",
     "MultiCluster Orchestration/MyNetwork/Karmada.md",
-    "Images/Pasted image 20250430121256.png",
     "Meta's hyperscale Infrastructure.md",
     "Networking Models.md",
     "MultiCluster Orchestration/BPF for Observability.md",

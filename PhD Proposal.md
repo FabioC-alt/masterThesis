@@ -50,7 +50,19 @@ https://ieeexplore.ieee.org/abstract/document/10141603
 Goal of Industry 4.0: 
 - Make assembly lines machine and sensors data available outside of the industrial plant offering possibilities of advanced coordination within separated industries.
 
+Concept of "Servization" -> the economic and functional enhancement of the produced goods by offering additional services that improve customer experience related to the product itself.
 
+# Human Machine Interface in Concept of Industry 4.0
+
+
+### HMI 1.0
+The first type of HMI were control rooms where buttons, diodes and clock indicators worked together
+### HMI 2.0
+The second revolution in HMI is desktop visualization and visualization on touch panels. 
+### HMI 3.0
+Internet connectivty and web servers in companies open possibilities for web and mobile applications. 
+### HMI 4.0
+Use of Machine Learning to react to events taking place inside the industrial plants using control system. Use of Virtual Reality and Augmented reality, this is the reason for developing the intelligent space
 
 
 
