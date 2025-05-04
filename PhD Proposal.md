@@ -43,14 +43,12 @@ This kind of technique combines both active and passive measurement techniques t
 
 
 ![[Pasted image 20250502175947.png]]a
-
-
-
-
-
-
-
 https://ieeexplore.ieee.org/abstract/document/10141603
+
+# Patera
+
+Goal of Industry 4.0: 
+- Make assembly lines machine and sensors data available outside of the industrial plant offering possibilities of advanced coordination within separated industries.
 
 
 
