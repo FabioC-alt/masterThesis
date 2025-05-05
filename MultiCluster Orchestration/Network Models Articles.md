@@ -80,12 +80,54 @@ API Gateways are not the only option to handle north/south traffic in Kubernetes
 
 #### Kubernetes Gateway API
 The Kubernetes Gateway API is based upon the Kubernetes Ingress but signigicantly expands the realm of functionalities to address a broader spectrum of networking challenges. 
+![[Pasted image 20250505111125.png]]
 
+### Naming Differences
+**API Gateway**  -> Intermediary Mechanism essentially serving as a bridge between backend services and their potential costumer
+
+**Gateway API** -> Is a specific component of the Kubernetes ecosystem and it is a set of structured resources crafted to model service networking within Kubernetes.
 
 ### Service Meshes
 The communications used in the framework service-to-service is instead called **east/west** and it overlaps the API Gateways features.
 
+![[Pasted image 20250505111535.png]]
 
+The core of the service mesh implementation offer routing, observation and secure transmission of traffic between service. 
 
+The central goal of service meshes is to decouple and externalize common *service-to-service* communication patterns.
+
+Service Meshes use a proxy mechanism to handle the common features. These proxies manages repetitive tasks and ensure consistency and efficiency.
+
+Service Meshes are technology-agnostic and and they can integrate seamlessly with each other, it uses a centralized management of internal communication between services.
+
+Service Meshes where used in principle to manage east/west traffic, but are increasingly integrating also north/south traffic solution.
+
+This shift is given by the fact that the  industry finds it difficult to manage two similar system (internal and external), with two different approach.
+This is why service meshes are progressively expanding their feature sets to better accomodate nort/south traffic.
+
+#### Key Takeways on Service Meshes
+Useful for:
+- Observability
+- Rate Limiting
+- Policies
+- Security
+and typically they contain:
+- Service Discovery
+- Load Balancing
+- Traffic Control / Shaping
+- Traffic Metric Collection
+- Service Resiliance
+
+#### Typical Implementation
+
+##### Sidecar Pattern
+![[Pasted image 20250505113514.png]]
+
+The sidecar pattern is an approach to service proxying where the proxy is situated right next to the service (Davis, 2019).
+
+![[Pasted image 20250505114647.png]]
+
+One of the benefits in using the service meshes is that it does not involve network hop in communication, unlike API gateways. 
+In the API gateways a request must always pass through the gateway to reach the service. These gateways are centralized components that handle traffic management meaning that there is always a network hop when using an API gateway.
 ## Comparison of Similar Solutions
 
