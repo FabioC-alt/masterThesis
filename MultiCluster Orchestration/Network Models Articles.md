@@ -125,7 +125,7 @@ and typically they contain:
 
 The sidecar pattern is an approach to service proxying where the proxy is situated right next to the service (Davis, 2019).
 
-![[Pasted image 20250505114647.png]]
+![[MeyNetwork/Images]]
 
 One of the benefits in using the service meshes is that it does not involve network hop in communication, unlike API gateways. 
 In the API gateways a request must always pass through the gateway to reach the service. These gateways are centralized components that handle traffic management meaning that there is always a network hop when using an API gateway.
@@ -134,6 +134,12 @@ Service meshes challenges are:
 - Support for high performance 
 - Adaptability
 - Availability
+
+
+##### Sidecarless Pattern
+
+
+
 
 
 
