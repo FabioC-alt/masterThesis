@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bfa64eee4a2213b0",
+        "id": "7a3234060aa00578",
         "type": "tabs",
         "children": [
           {
-            "id": "74cb4224e554be48",
+            "id": "d21de579a503a5c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "continuum",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b6a5db65bd4fbedf",
@@ -179,38 +178,37 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "74cb4224e554be48",
+  "active": "6aa1de92dd7901cd",
   "lastOpenFiles": [
+    "Pasted image 20250504171444.png",
+    "MultiCluster Orchestration/Network Models Articles.md",
+    "Meta's hyperscale Infrastructure.md",
+    "MultiCluster Orchestration/The Multi-Cluster Classification.md",
+    "MultiCluster Orchestration/Service Mesh Classification.md",
+    "MultiCluster Orchestration/Security Articles.md",
+    "MultiCluster Orchestration/Observarbility.md",
     "Pasted image 20250505114647.png",
     "Pasted image 20250505113514.png",
     "Pasted image 20250505111535.png",
     "Pasted image 20250505111125.png",
     "Pasted image 20250505103255.png",
     "Pasted image 20250504172832.png",
-    "Pasted image 20250504171444.png",
-    "MultiCluster Orchestration/Observarbility.md",
     "MultiCluster Orchestration/Observability Articles.md",
     "MultiCluster Orchestration/P2P.png",
     "MultiCluster Orchestration/P2P.drawio.png",
     "MultiCluster Orchestration/MyNetwork/Untitled Diagram.drawio",
     "Images/Pasted image 20250502170506.png",
-    "Images/Pasted image 20250502152149.png",
     "PhD Proposal.md",
     "MultiCluster Orchestration/Articoli Smart Cities.md",
-    "MultiCluster Orchestration/Service Mesh Classification.md",
-    "MultiCluster Orchestration/Network Models Articles.md",
     "MultiCluster Orchestration/Articles/Articoli Da leggere.md",
     "MultiCluster Orchestration/Overhead Articles.md",
     "MultiCluster Orchestration/MyNetwork/peerToPeer.drawio",
     "MultiCluster Orchestration/MyNetwork/HubSpoke.drawio",
     "MultiCluster Orchestration/MasterSlave.drawio",
     "MultiCluster Orchestration/Proposta tesi.md",
-    "MultiCluster Orchestration/Security Articles.md",
-    "MultiCluster Orchestration/The Multi-Cluster Classification.md",
     "MultiCluster Orchestration/What is an Operator?.md",
     "Opentelemetry Observability.md",
     "MultiCluster Orchestration/MyNetwork/Karmada.md",
-    "Meta's hyperscale Infrastructure.md",
     "Networking Models.md",
     "MultiCluster Orchestration/BPF for Observability.md",
     "MultiCluster Orchestration/Tools Classified.md",
