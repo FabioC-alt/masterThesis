@@ -123,6 +123,37 @@ make current information on community conditions that is easily
 available to community leaders and citizen
 
 ## Digital Twin
+Therefore, interinfrastructure digital twins can provide much  
+more value than single-system digital twins alone. For example,  
+a flooding/transportation digital twin that provides both available  
+egress routes and alternatives to flooded roadways is more valuable  
+than a flood map and flooding predictions alone or a roadway map  
+and traffic congestion forecasts alone.
+To better meet these definitional needs, as used here, digital  
+twins are community images and simulations of infrastructures that  
+can be used to present current and forecast future conditions in  
+ways that improve decision-making and future conditions
+
+## Smart City Digital Twin
+A SCDT brings together smart city and digital twin technologies  
+into a single platform. However, a distinction between smart city  
+and digital twin functions is important for evaluating SCDT use and  
+improving SCDT development.
+
+To support community disaster management, a SCDT must use current data  
+(smart city) to drive a simulation (digital twin) that allows decision  
+makers to assess and evaluate potential future conditions based on  
+current conditions and possible impacts of decisions.
+
+To better meet these definitional needs, as used here, a SCDT is  
+a system of ICT sensors that develop data sets integrated into dig-  
+ital twin models that provide a dynamic ability to assess the future  
+impacts of current conditions and strategies in ways that improve  
+decision-making to achieve desired future results.
+
+![[Pasted image 20250508110812.png]]
+
+## Flood System Alert (The Houston Case)
 
 
 
