@@ -65,5 +65,8 @@ Internet connectivty and web servers in companies open possibilities for web and
 Use of Machine Learning to react to events taking place inside the industrial plants using control system. Use of Virtual Reality and Augmented reality, this is the reason for developing the intelligent space
 
 
+Smart Cities with Digital Twin Systems for Disaster Management:
+https://ascelibrary.org/doi/full/10.1061/%28ASCE%29ME.1943-5479.0000779
 
+Communities Experience disasters in four phases: mitigation, preparation, response and recovery.
 
