@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PhD Proposal.md",
+                "file": "MultiCluster Orchestration/MyNetwork/Liqo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PhD Proposal"
+              "title": "Liqo"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "phd",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -141,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhD Proposal.md",
+                "file": "MultiCluster Orchestration/MyNetwork/Liqo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PhD Proposal"
+              "title": "Outline of Liqo"
             }
           },
           {
@@ -181,6 +180,8 @@
   },
   "active": "d21de579a503a5c2",
   "lastOpenFiles": [
+    "MultiCluster Orchestration/MyNetwork/Karmada.md",
+    "PhD Proposal.md",
     "Pasted image 20250508110812.png",
     "Pasted image 20250508104021.png",
     "Pasted image 20250508103126.png",
@@ -198,9 +199,7 @@
     "Pasted image 20250505103255.png",
     "Pasted image 20250504172832.png",
     "MultiCluster Orchestration/Observability Articles.md",
-    "MultiCluster Orchestration/P2P.png",
     "MultiCluster Orchestration/MyNetwork/Untitled Diagram.drawio",
-    "PhD Proposal.md",
     "MultiCluster Orchestration/Articoli Smart Cities.md",
     "MultiCluster Orchestration/Articles/Articoli Da leggere.md",
     "MultiCluster Orchestration/Overhead Articles.md",
@@ -210,7 +209,6 @@
     "MultiCluster Orchestration/Proposta tesi.md",
     "MultiCluster Orchestration/What is an Operator?.md",
     "Opentelemetry Observability.md",
-    "MultiCluster Orchestration/MyNetwork/Karmada.md",
     "Networking Models.md",
     "MultiCluster Orchestration/BPF for Observability.md",
     "MultiCluster Orchestration/Tools Classified.md",
