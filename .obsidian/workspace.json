@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MultiCluster Orchestration/MyNetwork/Liqo.md",
+                "file": "MultiCluster Orchestration/Overhead Articles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Liqo"
+              "title": "Overhead Articles"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MultiCluster Orchestration/MyNetwork/Liqo.md",
+                "file": "MultiCluster Orchestration/Overhead Articles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Liqo"
+              "title": "Outline of Overhead Articles"
             }
           },
           {
@@ -155,8 +155,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -180,6 +180,7 @@
   },
   "active": "d21de579a503a5c2",
   "lastOpenFiles": [
+    "MultiCluster Orchestration/MyNetwork/Liqo.md",
     "MultiCluster Orchestration/MyNetwork/Karmada.md",
     "PhD Proposal.md",
     "Pasted image 20250508110812.png",
