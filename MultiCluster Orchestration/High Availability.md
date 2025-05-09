@@ -57,11 +57,17 @@ Service Level Agreement (SLA).
 # High Availability in Kubernetes
 There are two options for configuring the topology of an High Availability in Kubernetes clusters:
 - Stacked control plane
-- External etcd
+- External etcd nodes
+
+## Stacked etcd Topology
+A stacked HA cluster is a topology where the distributed data storage cluster provided by etcd is stacked on top of the cluster formed by the nodes managed by kubeadm that run control plane components.
+
+![[Pasted image 20250509180356.png]]
 
 # High Availability Installation Overview in Karmada
  https://karmada.io/docs/installation/ha-installation/
 
+## Etcd HA
 This documentation explain high availability for Karmada. The Karmada high availability architecture is very similar to the Kubernetes high availaibility architecture. 
 
 Deploying Karmada in a HA (High Availaibility) environment we can create multiple Karmada API server instead of using a single API server. So even if a Karmada control plane goes down.
@@ -72,7 +78,7 @@ It is possible to set-up an HA cluster:
 - With stacked control plane nodes, where etcd nodes are colocated with control plane nodes
 - With external etcd nodes, where etcd runs on separate nodes from the control plane.
 
-## Stacked etcd topology
+### Stacked etcd topology
 A stacked HA cluster is a topology where the distributed data storage cluster provided by etcd is stacked on top of the Karmada control plane nodes.
 
 Each control plane node runs an instance of the Karmada API server, Karmada scheduler and Karmada control manager. The Karmada API server can communicate with multiple member cluster, and these member clusters can be registered to the multiple Karmada API servers.
@@ -82,10 +88,60 @@ This topology couples the control plane and etcd members on the same nodes. It i
 Therefore a suggested number of minimal cluster is three.
 
 ![[Pasted image 20250509174401.png]]
+#### Stacked HA Topology
 
+In the **stacked** topology:
 
-## External etcd Topology
+- Each **control plane node** runs both:
+    
+    - the **Kubernetes control plane components** (`kube-apiserver`, `controller-manager`, `scheduler`)
+        
+    - and a **local `etcd` instance**
+        
+- All `etcd` instances form a **cluster** across the control plane nodes.
+    
 
+#### ✅ Pros:
+
+- Simpler to deploy and maintain.
+    
+- Fewer machines needed (better for resource-constrained environments).
+    
+- Easier setup with tools like `kubeadm`.
+    
+
+#### ❌ Cons:
+
+- **Failure domain coupling**: if a node fails, you lose both control plane and `etcd` for that node.
+    
+- Harder to scale etcd independently from the control plane.
+
+### External etcd Topology
+#### External HA Topology
+
+In the **external** topology:
+
+- Control plane nodes **do not run `etcd`**.
+    
+- A **separate set of nodes** is dedicated to running an **external `etcd` cluster**.
+    
+
+#### ✅ Pros:
+
+- **Failure domain isolation**: losing a control plane node doesn't affect `etcd`, and vice versa.
+    
+- Easier to scale and manage `etcd` independently.
+    
+- Better suited for large, production-grade environments.
+    
+
+#### ❌ Cons:
+
+- More complex deployment and maintenance.
+    
+- Requires **more nodes** and coordination.
+    
+- More moving parts, which can increase operational overhead.
 An HA cluster with external etcd is a topology where the distributed data storage cluster provided by etcd is external to the Karmada cluster formed by the nodes that run Karmada control plane components.
 
 Like the stacked etcd topology, each Karmada control  plane node in an external etcd topology runs an instance of the Karmada API server, Karmada scheduler and Karmada controller manager. The Karmada API server is exposed to the member clusters. The etcd members runs on separate hosts and each etcd host communicates with the Karmada API server of each Karmada control plane node.
@@ -96,6 +152,16 @@ This topology requires twice the number of hosts as the stacked HA topology. A m
 
 ![[Pasted image 20250509175511.png]]
 
+### Failover Overview
+https://karmada.io/docs/next/userguide/failover/failover-overview/
 
+When acting in multi-cluster scenarion, user workload may be deployed in multiple clusters to improve service high availability. In Karmada when a cluster fails or the user does not want to continue running workloads on a cluster, the cluster status will be marked as unavailable and some taints will be added.
+
+The taint-manager will evict workloads from the fault cluster. And then the evicted workloads will be executed on another cluster that is the best-fit.
+
+## High Availability in Liqo
+https://docs.liqo.io/en/v1.0.0/usage/service-continuity.html#servicecontinuityha
+
+Liqo allows to deploy the most critical Liqo components in high availability. This is archieved by deploying multiple replicas of the same component in an **active/passive** fashion. This ensures that, even after eventual pod restarts or node failures, exactly one replica is always active while the remaining ones run on standby.
 
 
