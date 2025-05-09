@@ -1,2 +1,5 @@
 Toward a high availability cloud: Techniques and challenges
 https://ieeexplore.ieee.org/abstract/document/6264687?casa_token=R0ZiiW_kZz8AAAAA:Bf86ydrh6eb4N_xTu0PvOOEQOjrNCoSF4IIS_rY42rk43IVZZRbryAxwnmS4y1hqAjcG47fT
+
+# High Availability in Cloud
+## Cloud Outages
