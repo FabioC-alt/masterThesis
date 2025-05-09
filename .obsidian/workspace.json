@@ -196,6 +196,9 @@
   },
   "active": "6d74ac5f9e5e62e1",
   "lastOpenFiles": [
+    "Pasted image 20250509163555.png",
+    "Pasted image 20250509163028.png",
+    "Pasted image 20250509162900.png",
     "MultiCluster Orchestration/Overhead Articles.md",
     "MultiCluster Orchestration/High Availability.md",
     "MultiCluster Orchestration/MyNetwork/Liqo.md",
@@ -215,8 +218,6 @@
     "Pasted image 20250505113514.png",
     "Pasted image 20250505111535.png",
     "Pasted image 20250505111125.png",
-    "Pasted image 20250505103255.png",
-    "Pasted image 20250504172832.png",
     "MultiCluster Orchestration/Observability Articles.md",
     "MultiCluster Orchestration/MyNetwork/Untitled Diagram.drawio",
     "MultiCluster Orchestration/Articoli Smart Cities.md",
@@ -240,7 +241,6 @@
     "TheoryNotes/MultiClusterEvaluation/Platform Management.md",
     "TheoryNotes/MultiClusterEvaluation/Networking.md",
     "TheoryNotes/MultiClusterEvaluation/MultiCluster Management.md",
-    "TheoryNotes/MultiClusterEvaluation/KubeStellar.md",
-    "TheoryNotes/MultiClusterEvaluation/Karmada.md"
+    "TheoryNotes/MultiClusterEvaluation/KubeStellar.md"
   ]
 }
