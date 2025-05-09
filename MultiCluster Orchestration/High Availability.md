@@ -54,3 +54,48 @@ Service Level Agreement (SLA).
 
 ![[Pasted image 20250509163555.png]]
 
+# High Availability in Kubernetes
+There are two options for configuring the topology of an High Availability in Kubernetes clusters:
+- Stacked control plane
+- External etcd
+
+# High Availability Installation Overview in Karmada
+ https://karmada.io/docs/installation/ha-installation/
+
+This documentation explain high availability for Karmada. The Karmada high availability architecture is very similar to the Kubernetes high availaibility architecture. 
+
+Deploying Karmada in a HA (High Availaibility) environment we can create multiple Karmada API server instead of using a single API server. So even if a Karmada control plane goes down.
+
+Karmada uses two options for configuring the topology of the highly available Karmada cluster.
+
+It is possible to set-up an HA cluster:
+- With stacked control plane nodes, where etcd nodes are colocated with control plane nodes
+- With external etcd nodes, where etcd runs on separate nodes from the control plane.
+
+## Stacked etcd topology
+A stacked HA cluster is a topology where the distributed data storage cluster provided by etcd is stacked on top of the Karmada control plane nodes.
+
+Each control plane node runs an instance of the Karmada API server, Karmada scheduler and Karmada control manager. The Karmada API server can communicate with multiple member cluster, and these member clusters can be registered to the multiple Karmada API servers.
+
+This topology couples the control plane and etcd members on the same nodes. It is simpler set up than a cluster with external etcd nodes and simple to manage for replication.
+
+Therefore a suggested number of minimal cluster is three.
+
+![[Pasted image 20250509174401.png]]
+
+
+## External etcd Topology
+
+An HA cluster with external etcd is a topology where the distributed data storage cluster provided by etcd is external to the Karmada cluster formed by the nodes that run Karmada control plane components.
+
+Like the stacked etcd topology, each Karmada control  plane node in an external etcd topology runs an instance of the Karmada API server, Karmada scheduler and Karmada controller manager. The Karmada API server is exposed to the member clusters. The etcd members runs on separate hosts and each etcd host communicates with the Karmada API server of each Karmada control plane node.
+
+This topology decouples the Karmada control plane and the etcd member. It therefore provides an HA setup where losing a control plane instance or an etcd member has less impact and does not affect the cluster redundancy as much as the stacked HA topology.
+
+This topology requires twice the number of hosts as the stacked HA topology. A minimum of three hosts for control plane nodes and three hosts for etcd nodes are required for an HA cluster with external etcd topology.
+
+![[Pasted image 20250509175511.png]]
+
+
+
+
