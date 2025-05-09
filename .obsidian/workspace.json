@@ -35,8 +35,7 @@
               "title": "High Availability"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MultiCluster Orchestration/High Availability.md",
+                "file": "MultiCluster Orchestration/Overhead Articles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of High Availability"
+              "title": "Outline of Overhead Articles"
             }
           },
           {
@@ -194,8 +193,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6d74ac5f9e5e62e1",
+  "active": "d21de579a503a5c2",
   "lastOpenFiles": [
+    "MultiCluster Orchestration/High Availability.md",
     "Pasted image 20250509180356.png",
     "Pasted image 20250509175511.png",
     "Pasted image 20250509174401.png",
@@ -203,7 +203,6 @@
     "Pasted image 20250509163028.png",
     "Pasted image 20250509162900.png",
     "MultiCluster Orchestration/Overhead Articles.md",
-    "MultiCluster Orchestration/High Availability.md",
     "MultiCluster Orchestration/MyNetwork/Liqo.md",
     "MultiCluster Orchestration/MyNetwork/Karmada.md",
     "PhD Proposal.md",
@@ -217,7 +216,6 @@
     "MultiCluster Orchestration/Service Mesh Classification.md",
     "MultiCluster Orchestration/Security Articles.md",
     "MultiCluster Orchestration/Observarbility.md",
-    "Pasted image 20250505114647.png",
     "MultiCluster Orchestration/Observability Articles.md",
     "MultiCluster Orchestration/MyNetwork/Untitled Diagram.drawio",
     "MultiCluster Orchestration/Articoli Smart Cities.md",

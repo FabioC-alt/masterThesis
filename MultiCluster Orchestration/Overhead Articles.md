@@ -15,3 +15,7 @@ Profiling and Understanding Virtualization Overhead in Cloud
 https://ieeexplore.ieee.org/abstract/document/7349558?casa_token=5To0uuCWdbkAAAAA:-COBv94a8UPLVcvhp8zelG3Jo4vAPrDuM0cIhHKTctLOI_50Qq-
 
 
+Liqo
+https://medium.com/the-liqo-blog/benchmarking-liqo-kubernetes-multi-cluster-performance-d77942d7f67c
+
+https://arxiv.org/abs/2204.05710

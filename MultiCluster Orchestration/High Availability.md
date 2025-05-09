@@ -159,9 +159,21 @@ When acting in multi-cluster scenarion, user workload may be deployed in multipl
 
 The taint-manager will evict workloads from the fault cluster. And then the evicted workloads will be executed on another cluster that is the best-fit.
 
-## High Availability in Liqo
+# High Availability in Liqo
 https://docs.liqo.io/en/v1.0.0/usage/service-continuity.html#servicecontinuityha
 
 Liqo allows to deploy the most critical Liqo components in high availability. This is archieved by deploying multiple replicas of the same component in an **active/passive** fashion. This ensures that, even after eventual pod restarts or node failures, exactly one replica is always active while the remaining ones run on standby.
 
+## Resilience to worker nodes failures
+
+In case the pods runs on the local cluster, they are running on the local node and therefore the lifecycle is managed by the Kubernetes system.
+
+While if instead the crushing node is a in a remote cluster, Liqo grants ShadowPod remote resiliency and in case of unavailability of the local cluster, enforcing the presence of the desired pod without requiring the intervention of the originating cluster.
+
+If a *remote worker* node become *NotReady* the Kuberenetes control plane marks all pods scheduled on that node for deletion, leaving them in *Terminating* state **indefinitely**. By design Liqo does not replace a pod that is offloaded, Terminating and running on a failed node.
+So in case of remote worker node failure, the expected workload of a deployment could be less than the expected.
+
+It is possible to configure Liqo to make sure that the expected workload is always running on the remote cluster. Which means that if enabled the Liqo custom controller check for all the offloaded and terminting pods running on *NotReady* nodes. A pod which mactch all condition is force-deleted by the controller.
+
+This way, the ShadowPod controller will enforce the presence of the remote pod by creating a new one on a healthy remote worker node, therefore ensuring the expected number of replicas is actively running on the remote cluster.
 
