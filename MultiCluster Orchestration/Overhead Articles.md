@@ -42,4 +42,7 @@ For scalability one increased number of VMs until all available physical resourc
 The testbed was made with two Kuberntes cluster: one is the *resource provider*, the other is the *resource consumer*.
 
 
-# Liqo
+# Performance Metrics of Local Cloud Computing Architectures
+https://ieeexplore.ieee.org/abstract/document/7371454
+
+

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overhead Articles.md",
+                "file": "Proposta tesi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overhead Articles"
+              "title": "Proposta tesi"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "df11e91181844f7a",
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Overhead Articles.md",
+                "file": "Proposta tesi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Overhead Articles"
+              "title": "Outline of Proposta tesi"
             }
           },
           {
@@ -181,10 +180,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e0dd6af4f5401bc5",
+  "active": "3728d0c4a8b6042d",
   "lastOpenFiles": [
-    "High Availability.md",
     "Overhead Articles.md",
+    "High Availability.md",
     "Observability Articles.md",
     "Network Models Articles.md",
     "MyNetwork/MultiCluster Orchestration.md",
