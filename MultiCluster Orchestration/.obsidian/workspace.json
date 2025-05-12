@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "62ab7bd6134d8a38",
+        "id": "4421d036aba508b6",
         "type": "tabs",
         "children": [
           {
-            "id": "d9bc2fd9b3a6a093",
+            "id": "e0dd6af4f5401bc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MyNetwork/Open Cluster Management.md",
+                "file": "Overhead Articles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Cluster Management"
-            }
-          },
-          {
-            "id": "6b2b01aaaf24e23f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Overhead Articles"
             }
           }
         ]
@@ -88,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "df11e91181844f7a",
@@ -152,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MyNetwork/Open Cluster Management.md",
+                "file": "Overhead Articles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Open Cluster Management"
+              "title": "Outline of Overhead Articles"
             }
           },
           {
@@ -190,11 +181,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d9bc2fd9b3a6a093",
+  "active": "e0dd6af4f5401bc5",
   "lastOpenFiles": [
+    "High Availability.md",
+    "Overhead Articles.md",
+    "Observability Articles.md",
+    "Network Models Articles.md",
+    "MyNetwork/MultiCluster Orchestration.md",
+    "MyNetwork/Open Cluster Management.md",
     "MyNetwork/Liqo.md",
     "MyNetwork/Karmada.md",
-    "Network Models Articles.md",
     "MyNetwork/Images/Pasted image 20250404125229.png",
     "MyNetwork/Images/Pasted image 20250404124556.png",
     "MyNetwork/Images/Pasted image 20250404124508.png",
@@ -205,9 +201,7 @@
     "MyNetwork/Images/Pasted image 20250404125408.png",
     "Observarbility.md",
     "The Multi-Cluster Classification.md",
-    "MyNetwork/Open Cluster Management.md",
     "What is an Operator?.md",
-    "MyNetwork/MultiCluster Orchestration.md",
     "Tools Classified.md",
     "Articles/Articoli Da leggere.md",
     "ArchitectureofMulti-CloudKubernetesEnvironments.pdf",
@@ -228,8 +222,6 @@
     "Architecture of Multi-Cloud Kubernetes Environments.md",
     "MyNetwork/Istio.md",
     "MyNetwork/Container Runtime.md",
-    "Virtual Node.md",
-    "MyNetwork/Images",
-    "Cluster Federation.md"
+    "MyNetwork/Images"
   ]
 }

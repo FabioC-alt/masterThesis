@@ -19,3 +19,18 @@ Liqo
 https://medium.com/the-liqo-blog/benchmarking-liqo-kubernetes-multi-cluster-performance-d77942d7f67c
 
 https://arxiv.org/abs/2204.05710
+
+# Test Analysis
+https://medium.com/the-liqo-blog/benchmarking-liqo-kubernetes-multi-cluster-performance-d77942d7f67c
+
+
+# Overhead definition
+
+
+
+
+## Testbed
+The testbed was made with two Kuberntes cluster: one is the *resource provider*, the other is the *resource consumer*.
+
+
+# Liqo
