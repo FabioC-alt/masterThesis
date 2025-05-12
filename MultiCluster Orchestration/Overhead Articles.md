@@ -45,4 +45,11 @@ The testbed was made with two Kuberntes cluster: one is the *resource provider*,
 # Performance Metrics of Local Cloud Computing Architectures
 https://ieeexplore.ieee.org/abstract/document/7371454
 
+****
 
+Encyclopedia of Computer science
+https://dl.acm.org/doi/pdf/10.5555/1074100.1074668
+
+
+Top 10 Kubernetes Metrics for Enhanced Visibility and Control
+https://www.groundcover.com/kubernetes-monitoring/kubernetes-metrics?utm_source=chatgpt.com
