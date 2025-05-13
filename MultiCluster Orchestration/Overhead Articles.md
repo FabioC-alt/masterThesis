@@ -82,9 +82,73 @@ https://www.groundcover.com/kubernetes-monitoring/kubernetes-metrics?utm_source=
 
 Testbed:
 3 cluster w/ 3 node per each -> 1 control plane, 2 worker
-Default 
+Default google market app
 
-CPU Usage: 
-Kubernetes Vanilla 
-Karmada
+Tools to test:
+Kubernetes Vanilla (Single Cluster)
+Karmada (pull)
+Karmada (push)
 Liqo
+
+Test to perform:
+
+Stable situation:
+CPU Usage (stable conditions): CPU usage of the tools in stable conditions
+Bandwidth Usage: Bandwidth usage necessary to manage clusters
+
+Request Variation:
+CPU Usage: CPU usage on variation of the number of requests
+Error Rate: Error Rate when varying the number of requests
+
+Setup:
+https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-monitoring-using-prometheus-grafana-%EF%B8%8F-b0e00b1ae039
+
+![[Pasted image 20250513110924.png]]
+
+## Prometheus
+Open-source system monitoring and alerting toolkit.
+
+```
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+```
+
+### Grafana
+Complements Prometheus by offering visualization capabilities through customizable dashboards and graphs.
+
+Create a `custom-values.yaml` to customize Helm chart installation
+```
+# custom-values.yaml
+prometheus:
+  service:
+    type: NodePort
+grafana:
+  service:
+    type: NodePort
+```
+Then, let's install `kube-prometheus-stack`:
+```
+helm upgrade --install kube-prometheus-stack prometheus-community/kube-prometheus-stack -f custom-values.yaml
+```
+
+
+Accessing Prometheus:
+
+Accessing Grafana:
+
+Username:
+```
+kubectl get secret --namespace default kube-prometheus-stack-grafana -o jsonpath="{.data.admin-user}" | base64 --decode ; echo  
+admin
+```
+Password:
+```
+kubectl get secret --namespace default kube-prometheus-stack-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo  
+prom-operator
+```
+
+# Monitoring Karmada with prometheus and grafana 
+https://karmada.io/docs/administrator/monitoring/working-with-prometheus-in-control-plane/
+
+# Monitoring Liqo using Grafana and Prometheus
+https://docs.liqo.io/en/stable/usage/prometheus-metrics.html
