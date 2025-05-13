@@ -150,5 +150,8 @@ prom-operator
 # Monitoring Karmada with prometheus and grafana 
 https://karmada.io/docs/administrator/monitoring/working-with-prometheus-in-control-plane/
 
+
+
+
 # Monitoring Liqo using Grafana and Prometheus
 https://docs.liqo.io/en/stable/usage/prometheus-metrics.html
