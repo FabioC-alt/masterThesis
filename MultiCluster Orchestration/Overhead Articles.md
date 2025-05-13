@@ -50,6 +50,41 @@ https://ieeexplore.ieee.org/abstract/document/7371454
 Encyclopedia of Computer science
 https://dl.acm.org/doi/pdf/10.5555/1074100.1074668
 
+*Overhead* in computer systems is like overhead in organizations- shared functions that benefit everyone but which cannot be allocated conveniently to one activity. 
+
+In computer systems, allocation of resources, scheduling, conflict resolution, protection, security, performance monitoring, auditing, accounting, I/O control, caching, distributed functions and network protocols are all counted as overhead.
+
+Overhead in computer systems shows up as slower process, less memory, less network bandwidth or bigger latencies than would be expected from reading the system specifications.
+
+Overhead is not easy to measure. The time an operating systems spends in supervisor state is not pure overhead because many important operations requested by user tasks are implemented as system functions that run in supervisor state.
+
+The following are all counted as overhead:
+- *Allocation of resources*
+- *Error Correction*
+- *Exceptional Conditions*
+- *Protection and Security*
+- *Performace Monitoring, auditing and accounting*
+- *Input-output control*
+- *Caching*
+- *Distributed Functions*
+- *Network Protocols*
+
+
 
 Top 10 Kubernetes Metrics for Enhanced Visibility and Control
 https://www.groundcover.com/kubernetes-monitoring/kubernetes-metrics?utm_source=chatgpt.com
+
+## Kubernetes Metrics
+
+
+
+## My Monitoring
+
+Testbed:
+3 cluster w/ 3 node per each -> 1 control plane, 2 worker
+Default 
+
+CPU Usage: 
+Kubernetes Vanilla 
+Karmada
+Liqo

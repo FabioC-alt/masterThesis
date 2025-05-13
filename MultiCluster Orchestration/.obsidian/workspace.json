@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "df11e91181844f7a",
@@ -182,8 +183,9 @@
   },
   "active": "e0dd6af4f5401bc5",
   "lastOpenFiles": [
-    "Proposta tesi.md",
+    "Untitled.md",
     "Overhead Articles.md",
+    "Proposta tesi.md",
     "High Availability.md",
     "Observability Articles.md",
     "Network Models Articles.md",
@@ -220,7 +222,6 @@
     "MyNetwork/KubeStellar.md",
     "Workload Scheduling.md",
     "Architecture of Multi-Cloud Kubernetes Environments.md",
-    "MyNetwork/Istio.md",
     "MyNetwork/Images"
   ]
 }
