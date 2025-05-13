@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overhead Articles.md",
+                "file": "High Availability.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overhead Articles"
+              "title": "High Availability"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Overhead Articles.md",
+                "file": "High Availability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Overhead Articles"
+              "title": "Outline of High Availability"
             }
           },
           {
@@ -183,9 +183,9 @@
   },
   "active": "e0dd6af4f5401bc5",
   "lastOpenFiles": [
+    "Overhead Articles.md",
     "Pasted image 20250513110924.png",
     "Untitled.md",
-    "Overhead Articles.md",
     "Proposta tesi.md",
     "High Availability.md",
     "Observability Articles.md",
@@ -212,7 +212,6 @@
     "MyNetwork/Linkerd.md",
     "MyNetwork/Rancher.md",
     "MyNetwork/Images/Pasted image 20250408125054.png",
-    "MyNetwork/Images/Pasted image 20250408123437.png",
     "MyNetwork/Rancher Fleet.md",
     "MyNetwork/Plural.md",
     "Articles/From Plural -> Multi-Cluster Management.md",

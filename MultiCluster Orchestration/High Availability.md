@@ -66,7 +66,7 @@ A stacked HA cluster is a topology where the distributed data storage cluster pr
 
 # High Availability Installation Overview in Karmada
  https://karmada.io/docs/installation/ha-installation/
-
+https://www.sciencedirect.com/science/article/pii/S1084804515002878?casa_token=Db-Jp6fhqzgAAAAA:nzSrg1IYg0EtvI6SCmbf9crpP7_3w-iGxNSUiqj4tU-Wr2yYARsi4ltqwq21lLBkf6-o1SHhCQ
 ## Etcd HA
 This documentation explain high availability for Karmada. The Karmada high availability architecture is very similar to the Kubernetes high availaibility architecture. 
 
