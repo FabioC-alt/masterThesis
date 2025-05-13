@@ -95,10 +95,12 @@ Test to perform:
 Stable situation:
 CPU Usage (stable conditions): CPU usage of the tools in stable conditions
 Bandwidth Usage: Bandwidth usage necessary to manage clusters
+Changes Adaptments Time: Time to reach requested state
 
 Request Variation:
-CPU Usage: CPU usage on variation of the number of requests
 Error Rate: Error Rate when varying the number of requests
+Latency Variations: Varying the amount of request how does the latency performs, scalar, exponential
+
 
 Setup:
 https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-monitoring-using-prometheus-grafana-%EF%B8%8F-b0e00b1ae039
@@ -149,9 +151,7 @@ prom-operator
 
 # Monitoring Karmada with prometheus and grafana 
 https://karmada.io/docs/administrator/monitoring/working-with-prometheus-in-control-plane/
-
-
-
-
 # Monitoring Liqo using Grafana and Prometheus
 https://docs.liqo.io/en/stable/usage/prometheus-metrics.html
+
+-> Entrambi abbastanza inutili 
