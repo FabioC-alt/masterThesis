@@ -1,12 +1,5 @@
 ![[Pasted image 20250502120503.png]]
-
-
-
-
-
 Event Mesh
-
-
 ![[Pasted image 20250502152149.png]]
 
 Agenti esterni che interagiscono con il sistema per aumentare la resilenza e sostenibilità
@@ -160,3 +153,4 @@ decision-making to achieve desired future results.
 # MicroView: Cloud-Native Observability with Temporal Precision
 https://dl.acm.org/doi/abs/10.1145/3630202.3630233
 
+****

@@ -9,9 +9,6 @@ Managing Performance Overhead of Virtual Machines in Cloud Computing: A Survey, 
 https://ieeexplore.ieee.org/abstract/document/6670704?casa_token=FFDLhut_HM8AAAAA:9n70cdPzDSfnyMy2dfHMK4vdL1XVS1lqOjmxzf8n-n2cysTT9CICxkZe8cTVKLqyTxMA1TO5
 
 ## Causes and metrics of VM performance overhead in IaaS cloud
-
-
-
 The Good, the Bad and the Ugly of Consumer Cloud Storage
 https://dl.acm.org/doi/pdf/10.1145/1842733.1842751?casa_token=TFOIbDyNexcAAAAA:9a-GP4VGcKja3nlt0mmeC0q1UIB8mOJGvn5SUwhtpshQrXeR1eFvpxqtGBJwt0XRZy6kt5GnJJJa
 
@@ -75,9 +72,6 @@ Top 10 Kubernetes Metrics for Enhanced Visibility and Control
 https://www.groundcover.com/kubernetes-monitoring/kubernetes-metrics?utm_source=chatgpt.com
 
 ## Kubernetes Metrics
-
-
-
 ## My Monitoring
 
 Testbed:
