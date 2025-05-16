@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Karmada"
             }
+          },
+          {
+            "id": "c0ef20a7e57f90cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chi offre cosa?.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chi offre cosa?"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b6a5db65bd4fbedf",
@@ -169,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MultiCluster Orchestration/MyNetwork/Karmada.md",
+                "file": "Chi offre cosa?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Karmada"
+              "title": "Outline of Chi offre cosa?"
             }
           },
           {
@@ -207,8 +222,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b8c8378625242445",
+  "active": "c0ef20a7e57f90cc",
   "lastOpenFiles": [
+    "Pasted image 20250516092626.png",
+    "MultiCluster Orchestration/MyNetwork/Karmada.md",
+    "Chi offre cosa?.md",
     "MultiCluster Orchestration/Overhead Articles.md",
     "MultiCluster Orchestration/High Availability.md",
     "PhD Proposal.md",
@@ -219,7 +237,6 @@
     "Pasted image 20250509163028.png",
     "Pasted image 20250509162900.png",
     "MultiCluster Orchestration/MyNetwork/Liqo.md",
-    "MultiCluster Orchestration/MyNetwork/Karmada.md",
     "Pasted image 20250508110812.png",
     "Pasted image 20250508104021.png",
     "Pasted image 20250508103126.png",
@@ -252,7 +269,6 @@
     "BPFTests/bpfTest1-8d661e36.o.tmp",
     "TheoryNotes/MultiClusterEvaluation/Platform Management.md",
     "TheoryNotes/MultiClusterEvaluation/Networking.md",
-    "TheoryNotes/MultiClusterEvaluation/MultiCluster Management.md",
-    "TheoryNotes/MultiClusterEvaluation/KubeStellar.md"
+    "TheoryNotes/MultiClusterEvaluation/MultiCluster Management.md"
   ]
 }
