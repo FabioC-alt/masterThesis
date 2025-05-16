@@ -20,8 +20,25 @@ Submariner allows two or more cluster, with a high level of trust, to communicat
 
 To connect the clusters, it uses Submariner
 
-Cross-cluster Service Governance
+Cross-cluster Service Governance is performed using `ErieCanal`.
 
+### Karmada Workload 
+Karmada handles multi-cluster resource scheduling -> unique feature
+
+PropagationPolicy and ClusterPropagationPolicy APIs are provided to propagate resources.
+
+
+## Liqo
+Usa per la connessione fabric -> Wireguard: VPN
+
+
+## Admiralty
+https://admiralty.io/docs/concepts/topologies
+Supporto per topologie: **Decentralized Federation**
+Progetto un poco inattivo per il resto
+
+
+### 
 
 
 
