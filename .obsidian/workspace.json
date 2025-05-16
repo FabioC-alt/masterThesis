@@ -35,8 +35,7 @@
               "title": "Karmada Experimentation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b6a5db65bd4fbedf",
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Karmada Experimentation.md",
+                "file": "Chi offre cosa?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Karmada Experimentation"
+              "title": "Outline of Chi offre cosa?"
             }
           },
           {
@@ -194,10 +192,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "79861310db51e015",
+  "active": "c649431bb323626c",
   "lastOpenFiles": [
-    "Chi offre cosa?.md",
     "Karmada Experimentation.md",
+    "Chi offre cosa?.md",
     "Experimentation",
     "MultiCluster Orchestration/Articles/Articoli Da leggere.md",
     "BPFTests/Pixie.md",
