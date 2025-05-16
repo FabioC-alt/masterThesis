@@ -38,10 +38,12 @@ Supporto per topologie: **Decentralized Federation**
 Progetto un poco inattivo per il resto
 
 
-### 
+### Open Cluster Management
+Workload only in "hub-spoke" mode -> No connection between clusters
 
 
 
+### Kubestellar
 
 
 
