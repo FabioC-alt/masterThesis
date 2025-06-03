@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PhD Proposal.md",
+                "file": "MultiCluster Orchestration/Observarbility.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PhD Proposal"
+              "title": "Observarbility"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MultiTenancy and Observability in Smart City Platforms",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhD Proposal.md",
+                "file": "MultiCluster Orchestration/Observarbility.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PhD Proposal"
+              "title": "Outline of Observarbility"
             }
           },
           {
@@ -194,6 +195,9 @@
   },
   "active": "c649431bb323626c",
   "lastOpenFiles": [
+    "PhD Proposal.md",
+    "MultiCluster Orchestration/Observarbility.md",
+    "MultiCluster Orchestration/Articoli Smart Cities.md",
     "Chi offre cosa?.md",
     "Karmada Experimentation.md",
     "Experimentation",
@@ -202,7 +206,6 @@
     "MultiCluster Orchestration/Untitled 1.md",
     "MultiCluster Orchestration/MyNetwork/Karmada.md",
     "MultiCluster Orchestration/High Availability.md",
-    "PhD Proposal.md",
     "Pasted image 20250516092626.png",
     "MultiCluster Orchestration/Overhead Articles.md",
     "Pasted image 20250509180356.png",
@@ -220,10 +223,8 @@
     "MultiCluster Orchestration/The Multi-Cluster Classification.md",
     "MultiCluster Orchestration/Service Mesh Classification.md",
     "MultiCluster Orchestration/Security Articles.md",
-    "MultiCluster Orchestration/Observarbility.md",
     "MultiCluster Orchestration/Observability Articles.md",
     "MultiCluster Orchestration/MyNetwork/Untitled Diagram.drawio",
-    "MultiCluster Orchestration/Articoli Smart Cities.md",
     "MultiCluster Orchestration/MyNetwork/peerToPeer.drawio",
     "MultiCluster Orchestration/MyNetwork/HubSpoke.drawio",
     "MultiCluster Orchestration/MasterSlave.drawio",
