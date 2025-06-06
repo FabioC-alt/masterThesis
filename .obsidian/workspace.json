@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MultiTenancy and Observability in Smart City Platforms",
+                "query": "Smart citi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -195,9 +195,9 @@
   },
   "active": "c649431bb323626c",
   "lastOpenFiles": [
-    "PhD Proposal.md",
-    "MultiCluster Orchestration/Observarbility.md",
     "MultiCluster Orchestration/Articoli Smart Cities.md",
+    "MultiCluster Orchestration/Observarbility.md",
+    "PhD Proposal.md",
     "Chi offre cosa?.md",
     "Karmada Experimentation.md",
     "Experimentation",
